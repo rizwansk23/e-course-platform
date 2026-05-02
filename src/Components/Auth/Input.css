@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.body{
+    width: 95%;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.input-box {
+  width: 100%;
+  border: 1px solid rgb(184, 183, 183);
+  border-radius: 8px;
+  padding: 0.65rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+
+.input-box input {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: medium;
+}
+
+.input-box:focus-within {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.eye{
+    color:rgb(184, 183, 183) ;
+    cursor: pointer;
+}
+
+.helper {
+  font-size: 0.85rem;
+  font-weight: 400;
+  padding-bottom: 0.2rem;
+  color: gray;
+}
